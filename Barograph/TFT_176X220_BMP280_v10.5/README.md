@@ -1,0 +1,1 @@
+A simple 24 hour barograph with a color graphic display. The pressure sensor BMP 280 and ArduinoPro 3.3V was used.
