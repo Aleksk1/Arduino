@@ -1,7 +1,6 @@
 # Barograph 24h
-==========================================
 
-A simple 24 hour barograph with a color graphic display. The pressure sensor BMP 280 and ArduinoPro 3.3V was used.
+### A simple 24 hour barograph with a color graphic display. The pressure sensor BMP 280 and ArduinoPro 3.3V was used.
 
 -----------------------------
 
@@ -10,3 +9,5 @@ A simple 24 hour barograph with a color graphic display. The pressure sensor BMP
 Автомасштабирование по вертикали от максимума до минимума, при обработке 220 значений давления в массиве , накопленном за 24 часа.
 На самом деле, происходит усреднение какждого из 220 значений, так как опрос датчика давления происходит каждую секунду и лишь после интегрирования 393 значений, каждые 393 секунды делается запись в массив для графика.
 Сдвиг графика происходит справа налево, поэтому спад давления соответствует спаду на графике, соответственно рост даления отображается подъемом.
+
+![front view](https://github.com/Aleksk1/Arduino/blob/master/Barograph/TFT_176X220_BMP280_v10.5/Pictures/IMG_20180130_144241res.jpg?raw=true)
